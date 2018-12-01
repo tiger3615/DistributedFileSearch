@@ -13,6 +13,7 @@ import cn.flamingo.ms.app.App;
 @SpringBootTest(classes = { App.class })
 public class UserServiceTest {
 	private static final Logger log = LoggerFactory.getLogger("TEST");
+	
 	@Test
 	public void testOne() {
 		log.info("test user 1");

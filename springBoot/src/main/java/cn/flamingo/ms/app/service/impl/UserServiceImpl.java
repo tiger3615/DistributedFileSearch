@@ -22,4 +22,10 @@ public class UserServiceImpl implements UserService {
 		return list;
 	}
 
+	@Override
+	public boolean login(User user) {
+		log.info("" + user);
+		return true;
+	}
+
 }

@@ -10,6 +10,7 @@ public class User implements Serializable {
 	private String sex;
 	private String address;
 	private Date birthday;
+	
 	public String getId() {
 		return id;
 	}

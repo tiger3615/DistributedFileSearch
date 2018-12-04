@@ -69,7 +69,7 @@
 			<charset>UTF-8</charset>
 		</encoder>
 	</appender>
-    <logger name="TEST" level="INFO" additivity="false">  
+    <logger name="TEST" level="DEBUG" additivity="false">  
         <appender-ref ref="TEST" />  
     </logger> 
 
